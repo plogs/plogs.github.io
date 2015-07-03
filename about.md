@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+plogs.org is a website designed to explain 'plogs' and to exemplify
+their use.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+blog.plogs.org contains the *blogs* posted to plogs.org.
+
+<img src='/images/plnkxplog06.png'
+     style='display: block; margin: 2em auto -1em auto;'
+     alt="plnkx + blog = plog" name='plnkx + blog = plog' />

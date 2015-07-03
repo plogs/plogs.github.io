@@ -1,0 +1,15 @@
+# Site settings
+title: plogs.org
+email: steve.isaacson@plnkx.com
+description: > # this means to ignore newlines until "baseurl:"
+  A plog is a place link (plnkx) that points to a blog, and back.
+  That is, it's a blog that has information relevant to a specific
+  location.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.plogs.org" # the base hostname & protocol for your site
+twitter_username:
+github_username: plogs
+
+# Build settings
+markdown: kramdown

@@ -1,1 +1,42 @@
-<h1>plogs.github.io</h1>
+---
+layout: default
+---
+
+<div class="home">
+
+<h1 align='center' style='margin-bottom: 2px;'>blog.plogs.org</h1>
+
+<p>A <em>plog</em>, in simple terms, is a place link (<a
+href='http://www.plnkx.com' target='_blank'><em>plnkx</em></a>) that
+points to a blog that has information relevant to a specific
+location. Often the blog points back to the place link. This creates
+a symbiotic relationship, wherein both information providers
+reinforce and support one another. However, this definition is
+informal. Any internet site that contains location-specific
+information is a likely candidate for
+<em>plogging</em>. 
+</p>
+
+
+<img src='/images/plnkxplog06.png'
+     style='display: block; margin: 2em auto -1em auto;'
+     alt="plnkx + blog = plog" name='plnkx + blog = plog' />
+
+
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>

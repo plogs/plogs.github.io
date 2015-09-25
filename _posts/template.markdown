@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Dante's Inferno - my favorite plnkx note
+title:  template markdown
 date:  Sat Jun  6 12:33:36 PDT 2015
 ---
 
-# My Favorite plnkx note
+# template
 
 blah de blah blah de blah blah de blah blah de blah blah de blah blah
 de blah blah de blah blah de blah blah de blah blah de blah blah de
